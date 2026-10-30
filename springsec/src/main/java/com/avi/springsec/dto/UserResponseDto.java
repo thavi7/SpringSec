@@ -1,0 +1,11 @@
+package com.avi.springsec.dto;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class UserResponseDto {
+    private String username;
+    private String message;
+}
